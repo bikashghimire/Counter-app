@@ -53,7 +53,8 @@ class App extends Component {
     });
   };
   render() {
-    return ( <React.Fragment>
+    return (
+       <React.Fragment>
       <
       NavBar totalCounters = {
         this.state.counters.filter(c => c.value > 0).length
@@ -74,7 +75,8 @@ class App extends Component {
         this.handleIncrement
       }
       / > </
-      main> </ React.Fragment>
+      main>
+       </React.Fragment>
 
     );
   }
